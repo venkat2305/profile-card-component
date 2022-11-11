@@ -11,4 +11,4 @@ hr {
     background-color: #333; /* Modern Browsers */
 }
 ```
-2. [SLACK DISCUSSION]()
+2. [SLACK DISCUSSION](https://frontendmentor.slack.com/archives/CCYHFT85B/p1668205810224049)
