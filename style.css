@@ -49,6 +49,7 @@ main {
   max-width: 400px;
   z-index: 3;
   margin: 15px;
+  box-shadow: 1px 1px 60px 0px hsl(227, 10%, 46%);
 }
 
 .content img {

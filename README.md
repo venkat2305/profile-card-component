@@ -1,3 +1,7 @@
+# To Do
+1. `box-shadow: 1px 1px 60px 0px hsl(227, 10%, 46%);`
+2. background patterns 
+
 # LEARNINGS
 
 1. [How can I change the thickness of my `<hr>` tag](https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag)
