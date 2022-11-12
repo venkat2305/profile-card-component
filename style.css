@@ -28,7 +28,7 @@ body {
   background-image: url("images/bg-pattern-top.svg"),
     url("images/bg-pattern-bottom.svg");
   background-size: 45%;
-  background-position: 0% -900%, 95% 1200%;
+  background-position: 0vw -40vh, 52vw 55vh;
   background-repeat: no-repeat;
 }
 
@@ -47,6 +47,7 @@ main {
   max-width: 400px;
   z-index: 3;
   /* background-image: url(images/bg-pattern-card.svg); */
+  margin: 15px;
 }
 
 .content img {
