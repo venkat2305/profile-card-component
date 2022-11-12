@@ -41,20 +41,17 @@ main {
   background-color: white;
   max-width: 400px;
   z-index: 3;
+  /* background-image: url(images/bg-pattern-card.svg); */
 }
 
 .content img {
   border-radius: 50%;
-  /* position: relative;
-  left: 120px;
-  bottom: 50px; */
-  margin-top: -50px;
-  margin-left: 120px;
   border: 5px solid white;
+  margin: -50px auto 10px auto;
 }
 
 h1,
-.stats {
+strong {
   font-weight: 700;
   color: var(--Very-dark-desaturated-blue);
   text-align: center;
@@ -65,7 +62,8 @@ h1,
   color: var(--Dark-grayish-blue);
 }
 
-p {
+p,
+li {
   font-weight: 400;
   text-align: center;
   color: var(--Dark-grayish-blue);
@@ -79,6 +77,11 @@ p {
   display: flex;
   justify-content: space-evenly;
   padding: 25px 0;
+  list-style: none;
+}
+
+strong {
+  display: block;
 }
 
 hr {
@@ -101,5 +104,4 @@ hr {
 .bottom {
   bottom: -62%;
   right: -2%;
-
 }
