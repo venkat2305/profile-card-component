@@ -24,13 +24,15 @@ picture {
 body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 1.125rem;
+  background-color: var(--Dark-cyan);
+}
+
+main {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: var(--Dark-cyan);
 }
-
 .container {
   display: flex;
   flex-direction: column;
@@ -38,18 +40,21 @@ body {
   overflow: hidden;
   background-color: white;
   max-width: 400px;
+  z-index: 3;
 }
 
 .content img {
   border-radius: 50%;
-  position: relative;
+  /* position: relative;
   left: 120px;
-  bottom: 50px;
+  bottom: 50px; */
+  margin-top: -50px;
+  margin-left: 120px;
   border: 5px solid white;
 }
 
 h1,
-h2 {
+.stats {
   font-weight: 700;
   color: var(--Very-dark-desaturated-blue);
   text-align: center;
@@ -78,7 +83,23 @@ p {
 
 hr {
   border: none;
-  height: 1px;
+  height: 0.51px;
   background-color: var(--Dark-gray);
   margin-top: 30px;
+}
+
+.circle {
+  width: 50%;
+  position: absolute;
+}
+
+.top {
+  top: -48%;
+  left: -5%;
+}
+
+.bottom {
+  bottom: -62%;
+  right: -2%;
+
 }
