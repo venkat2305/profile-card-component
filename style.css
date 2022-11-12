@@ -25,6 +25,7 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 1.125rem;
   background-color: var(--Dark-cyan);
+  
 }
 
 main {
@@ -34,8 +35,8 @@ main {
   min-height: 100vh;
   background-image: url("images/bg-pattern-top.svg"),
     url("images/bg-pattern-bottom.svg");
-  background-size: 45%;
-  background-position: 0vw -40vh, 52vw 55vh;
+  /* background-size: 45%; */ 
+  background-position: -190% -75vh, 48vw 55vh;
   background-repeat: no-repeat;
 }
 
