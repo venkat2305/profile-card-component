@@ -19,3 +19,4 @@ hr {
 3. [CSS background-position Property](https://www.w3schools.com/csSref/pr_background-position.php)
 4. [CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp)
 5. [CSS Backgrounds Yt video](https://www.youtube.com/watch?v=dr1y4m7iEoU)
+6. [BACKGROUND POSITION](https://dev.to/this-is-learning/all-you-need-to-know-about-background-position-3aac)
