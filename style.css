@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 img,
@@ -23,7 +24,7 @@ picture {
 
 body {
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 1.125rem;
+  
   background-color: var(--Dark-cyan);
 }
 
@@ -57,11 +58,17 @@ main {
   margin: -50px auto 10px auto;
 }
 
+
+h1{
+  font-size: 1.5rem;
+}
+
 h1,
 strong {
   font-weight: 700;
   color: var(--Very-dark-desaturated-blue);
   text-align: center;
+  
 }
 
 .content span {
