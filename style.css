@@ -33,11 +33,11 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url("images/bg-pattern-top.svg"),
+  /* background-image: url("images/bg-pattern-top.svg"),
     url("images/bg-pattern-bottom.svg");
-  /* background-size: 45%; */ 
   background-position: -190% -75vh, 48vw 55vh;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+    /* background-size: 45%; */ 
 }
 
 .container {
@@ -112,4 +112,37 @@ hr {
 .bottom {
   bottom: -62%;
   right: -2%;
+}
+
+.component-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
+  background: #19a2ae;
+  z-index: -1;
+}
+
+.component-wrapper:before, .component-wrapper:after {
+  position: absolute;
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  background-size: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.component-wrapper:before {
+  top: 0;
+  left: 0;
+  background: url("../images/bg-pattern-top.svg") no-repeat bottom right;
+}
+
+.component-wrapper:after {
+  top: 100%;
+  left: 100%;
+  background: url("../images/bg-pattern-bottom.svg") no-repeat top left;
 }
