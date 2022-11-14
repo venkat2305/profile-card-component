@@ -118,10 +118,10 @@ hr {
   display: flex;
   flex-direction: column;
   position: relative;
-  /* font-family: "Kumbh Sans", sans-serif; */
+  font-family: "Kumbh Sans", sans-serif;
   overflow: hidden;
-  /* background: #19a2ae; */
-  /* z-index: -1; */
+  background: #19a2ae;
+  z-index: -1;
 }
 
 .component-wrapper:before,
