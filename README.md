@@ -2,6 +2,7 @@
 
 1. `box-shadow: 1px 1px 60px 0px hsl(227, 10%, 46%);`
 2. background patterns
+3. BACKGROUND PATTERNS : DO IT BETTER
 
 # LEARNINGS
 
