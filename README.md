@@ -1,6 +1,7 @@
 # To Do
+
 1. `box-shadow: 1px 1px 60px 0px hsl(227, 10%, 46%);`
-2. background patterns 
+2. background patterns
 
 # LEARNINGS
 
@@ -15,6 +16,7 @@ hr {
     background-color: #333; /* Modern Browsers */
 }
 ```
+
 2. [SLACK DISCUSSION](https://frontendmentor.slack.com/archives/CCYHFT85B/p1668205810224049)
 3. [CSS background-position Property](https://www.w3schools.com/csSref/pr_background-position.php)
 4. [CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp)
