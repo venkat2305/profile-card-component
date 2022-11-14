@@ -114,14 +114,14 @@ hr {
 }
 
 .component-wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  font-family: "Kumbh Sans", sans-serif;
-  overflow: hidden;
-  background: #19a2ae;
-  z-index: -1;
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: relative; */
+  /* font-family: "Kumbh Sans", sans-serif; */
+  /* overflow: hidden; */
+  /* background: #19a2ae; */
+  /* z-index: -1; */
 }
 
 .component-wrapper:before,
