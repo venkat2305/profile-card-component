@@ -25,6 +25,10 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   overflow: hidden;
   background: #19a2ae;
+  /* background: url(images/bg-pattern-top.svg) no-repeat top left, 
+  url(images/bg-pattern-bottom.svg) no-repeat bottom right, #19a2ae;
+  background-size: 98vw;
+  background-position: left -50vw  top -60vw, bottom -50vw right -50vw; */
 }
 body:before,
 body:after {
@@ -47,7 +51,6 @@ body:after {
   left: 100%;
   background: url("images/bg-pattern-bottom.svg") no-repeat top left;
 }
-
 
 main {
   display: flex;
