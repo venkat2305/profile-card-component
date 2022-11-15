@@ -7,51 +7,63 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-img,
-picture {
-  display: block;
-  max-width: 100%;
-}
-
 :root {
   --Dark-cyan: hsl(185, 75%, 39%);
   --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
   --Dark-grayish-blue: hsl(227, 10%, 46%);
   --Dark-gray: hsl(0, 0%, 59%);
 }
-
 body {
   font-family: "Kumbh Sans", sans-serif;
-
   background-color: var(--Dark-cyan);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
+  background: #19a2ae;
 }
+body:before,
+body:after {
+  position: absolute;
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  background-size: auto;
+  transform: translate(-50%, -50%);
+}
+
+body:before {
+  top: 0;
+  left: 0;
+  background: url("images/bg-pattern-top.svg") no-repeat bottom right;
+}
+
+body:after {
+  top: 100%;
+  left: 100%;
+  background: url("images/bg-pattern-bottom.svg") no-repeat top left;
+}
+
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  /* background-image: url("images/bg-pattern-top.svg"),
-    url("images/bg-pattern-bottom.svg");
-  background-position: -190% -75vh, 48vw 55vh;
-  background-repeat: no-repeat; */
-  /* background-size: 45%; */
-}
-
-.container {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
   background-color: white;
   max-width: 400px;
-  z-index: 3;
   margin: 15px;
   box-shadow: 1px 1px 60px 0px hsl(227, 10%, 46%);
+  z-index: 1;
 }
 
 .content img {
+  display: block;
+  max-width: 100%;
   border-radius: 50%;
   border: 5px solid white;
   margin: -50px auto 10px auto;
@@ -100,53 +112,4 @@ hr {
   height: 0.51px;
   background-color: var(--Dark-gray);
   margin-top: 30px;
-}
-
-.circle {
-  width: 50%;
-  position: absolute;
-}
-
-.top {
-  top: -48%;
-  left: -5%;
-}
-
-.bottom {
-  bottom: -62%;
-  right: -2%;
-}
-
-.component-wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  font-family: "Kumbh Sans", sans-serif;
-  overflow: hidden;
-  background: #19a2ae;
-  z-index: -1;
-}
-
-.component-wrapper:before,
-.component-wrapper:after {
-  position: absolute;
-  content: "";
-  width: 100vw;
-  height: 100vh;
-  background-size: auto;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-
-.component-wrapper:before {
-  top: 0;
-  left: 0;
-  background: url("images/bg-pattern-top.svg") no-repeat bottom right;
-}
-
-.component-wrapper:after {
-  top: 100%;
-  left: 100%;
-  background: url("images/bg-pattern-bottom.svg") no-repeat top left;
 }
